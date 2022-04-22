@@ -1,0 +1,40 @@
+    "hwCounters": {
+        "Instr Retired": {
+            "addr": "0xC0010200",
+            "value": "0x5100c0"
+        },
+        "Cycles": {
+            "addr": "0xC0010202",
+            "value": "0x510076"
+        },
+        "L2HitDC": {
+            "addr": "0xC0010204",
+            "value": "0x510143"
+        },
+        "L3HitDC": {
+            "addr": "0xC0010206",
+            "value": "0x511243"
+        },
+        "L3MissDC": {
+            "addr": "0xC0010208",
+            "value": "0x514843"
+        },
+        "L3Request": {
+            "addr": "0xC0010232",
+            "value": "0x10F00000040FF06"
+        },
+        "L3Miss": {
+            "addr": "0xC0010234",
+            "value": "0x10F000000400106"
+        },
+        "L3Latency1": {
+            "addr": "0xC0010238",
+            "value": "0xFF0F000000400090"
+        },
+        "L3Latency2": {
+            "addr": "0xC001023A",
+            "value": "0xFF0F000000401B9A"
+        }
+
+    }
+}

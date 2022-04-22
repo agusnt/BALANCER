@@ -1,5 +1,15 @@
 # BALANCER
 
+## Platform
+
+Balancer was developed and tested on an 64-core/128-thread AMD EPYC 7702P which
+supports LLC and DRAM-BW partitioning. The system was running CentOS Linux 8,
+Linux kernel version 4.18.0 and Python 3.6.8
+
+## Directories
+
+* **Characterization**: scripts and data to reproduce section 3
+
 ##  Metrics calculation from hardware counters
 
 | Metric | Formula | Scope |
