@@ -14,8 +14,8 @@ Source code for balancer.
 `taskset -c <schedule core> src/main.py <json config file> <schedule core>`
 
 Parameters:
-    * **json config file**: configuration json file
-    * **schedule core**: physical thread where balancer will run
+* **json config file**: configuration json file
+* **schedule core**: physical thread where balancer will run
 
 **NOTE**: Use `taskset` or equivalent to pin Balancer to a physical thread
 
